@@ -1,0 +1,92 @@
+# CPU-Optimized Multi-Dataset Training Configuration
+# Optimized for Intel Core i3 7th generation with limited RAM
+
+# Model Configuration - CPU Optimized
+model:
+  name: "distilgpt2"  # Smaller, efficient model for CPU training
+  max_length: 256     # Reduced for memory efficiency
+
+# Training Parameters - CPU Optimized
+training:
+  batch_size: 1                    # Very small batch for CPU
+  learning_rate: 3e-5              # Slightly lower for stability
+  num_epochs: 3
+  warmup_steps: 50                 # Reduced warmup
+  save_steps: 100                  # Frequent saves for long training
+  eval_steps: 50                   # Frequent evaluation
+  gradient_accumulation_steps: 32  # Large accumulation for effective batch size
+  fp16: false                      # Disabled for CPU
+  dataloader_num_workers: 1        # Minimal workers for CPU
+  output_dir: "./cpu_trained_model"
+
+# CPU-Specific Optimizations
+cpu_optimizations:
+  torch_threads: 4                 # Use all 4 threads
+  interop_threads: 2               # Optimize inter-op parallelism
+  memory_efficient: true           # Enable memory optimizations
+  checkpoint_resume: true          # Enable checkpoint resumption
+  aggressive_cleanup: true         # Frequent memory cleanup
+
+# Dataset Configurations - Full datasets maintained
+datasets:
+  conversational:
+    - name: "alpaca"
+      path: "Datasets/Conversational_Datasets/alpaca_dataset/train.jsonl"
+      weight: 0.4                  # Increased weight
+      max_samples: null            # Use full dataset
+
+    - name: "vicuna"
+      path: "Datasets/Conversational_Datasets/vicuna_dataset/train.jsonl"
+      weight: 0.2
+      max_samples: null
+
+    - name: "wizardlm"
+      path: "Datasets/Conversational_Datasets/wizardlm_dataset/train.jsonl"
+      weight: 0.2
+      max_samples: null
+
+  programming:
+    - name: "codealpaca"
+      path: "Datasets/Programming_DataSets/codealpaca/data/code_alpaca_2k.json"
+      weight: 0.4                  # Increased weight
+      max_samples: null
+
+    - name: "humaneval"
+      path: "Datasets/Programming_DataSets/human-eval/data/example_problem.jsonl"
+      weight: 0.1
+      max_samples: null
+
+  cybersecurity:
+    - name: "cve_data"
+      path: "Datasets/CyberSecurity_DataSets/nvdcve/nvdcve"
+      weight: 0.2
+      max_samples: null            # Use full dataset
+
+# Memory Management
+memory:
+  cleanup_frequency: 50            # Cleanup every 50 steps
+  checkpoint_limit: 3              # Keep only 3 checkpoints
+  log_memory_usage: true           # Monitor memory usage
+
+# Training Estimates for Intel Core i3 7th Gen
+estimates:
+  total_samples: ~60000            # Approximate total samples
+  effective_batch_size: 32         # batch_size * gradient_accumulation_steps
+  steps_per_epoch: ~1875           # total_samples / effective_batch_size
+  total_steps: ~5625               # steps_per_epoch * num_epochs
+  estimated_time_hours: 24-48      # Conservative estimate for CPU training
+
+# Hardware Configuration
+hardware:
+  cpu_only: true
+  use_gpu: false
+  mixed_precision: false
+  gradient_checkpointing: true     # Save memory at cost of compute
+
+# Monitoring and Logging
+monitoring:
+  log_level: "INFO"
+  log_memory: true
+  log_frequency: 50                # Log every 50 steps
+  save_logs: true
+  log_file: "cpu_training.log"

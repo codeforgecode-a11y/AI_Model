@@ -1,0 +1,75 @@
+# Multi-Dataset Training Configuration
+
+# Model Configuration
+model:
+  name: "microsoft/DialoGPT-medium"  # Base model to fine-tune
+  max_length: 512
+
+# Training Parameters
+training:
+  batch_size: 4
+  learning_rate: 5e-5
+  num_epochs: 3
+  warmup_steps: 500
+  save_steps: 1000
+  eval_steps: 500
+  gradient_accumulation_steps: 8
+  fp16: true
+  dataloader_num_workers: 4
+  output_dir: "./multi_domain_model"
+
+# Dataset Configurations
+datasets:
+  conversational:
+    - name: "alpaca"
+      path: "Datasets/Conversational_Datasets/alpaca_dataset/train.jsonl"
+      weight: 0.3
+      max_samples: 5000
+
+    - name: "vicuna"
+      path: "Datasets/Conversational_Datasets/vicuna_dataset/train.jsonl"
+      weight: 0.2
+      max_samples: 3000
+
+    - name: "wizardlm"
+      path: "Datasets/Conversational_Datasets/wizardlm_dataset/train.jsonl"
+      weight: 0.2
+      max_samples: 3000
+
+  programming:
+    - name: "codealpaca"
+      path: "Datasets/Programming_DataSets/codealpaca/data/code_alpaca_2k.json"
+      weight: 0.2
+      max_samples: 2000
+
+    - name: "humaneval"
+      path: "Datasets/Programming_DataSets/human-eval/data/example_problem.jsonl"
+      weight: 0.1
+      max_samples: 500
+
+  cybersecurity:
+    - name: "cve_data"
+      path: "Datasets/CyberSecurity_DataSets/nvdcve/nvdcve"
+      weight: 0.1
+      max_samples: 1000
+
+# Evaluation Configuration
+evaluation:
+  test_prompts:
+    conversational:
+      - "### Instruction:\nExplain the concept of artificial intelligence.\n\n### Response:"
+      - "### Instruction:\nWhat are the benefits of renewable energy?\n\n### Response:"
+
+    programming:
+      - "### Programming Task:\nWrite a Python function to reverse a string.\n\n### Solution:"
+      - "### Programming Task:\nImplement a binary search algorithm.\n\n### Solution:"
+
+    cybersecurity:
+      - "### Cybersecurity Analysis:\nWhat is a SQL injection attack?\n\n### Description:"
+      - "### Cybersecurity Analysis:\nExplain the concept of zero-day vulnerabilities.\n\n### Description:"
+
+# Hardware Configuration
+hardware:
+  use_gpu: true
+  mixed_precision: true
+  gradient_checkpointing: false

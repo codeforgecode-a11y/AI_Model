@@ -1,0 +1,63 @@
+# Maximum Performance CPU Training Configuration
+# All monitoring and visualization disabled for maximum resource utilization
+
+# Model Configuration
+model:
+  name: "distilgpt2"
+  max_length: 256
+
+# Training Parameters - Performance Optimized
+training:
+  batch_size: 1
+  learning_rate: 3e-5
+  num_epochs: 3
+  warmup_steps: 50
+  save_steps: 500                  # Less frequent saves
+  eval_steps: 1000                 # Minimal evaluation
+  gradient_accumulation_steps: 32
+  fp16: false
+  dataloader_num_workers: 0        # No parallel data loading
+  output_dir: "./cpu_trained_model"
+
+# Performance Optimizations
+performance:
+  disable_tqdm: true               # No progress bars
+  disable_wandb: true              # No Weights & Biases
+  disable_tensorboard: true        # No TensorBoard
+  disable_logging: true            # Minimal logging only
+  disable_evaluation: true         # No validation during training
+  disable_metrics: true            # No metric computation
+  minimal_checkpoints: true        # Keep only 2 checkpoints
+  no_validation_split: true       # Use full dataset for training
+
+# System Resource Allocation
+resources:
+  cpu_threads: 4                   # Use all available threads
+  memory_cleanup_frequency: 100    # Less frequent cleanup
+  disable_memory_monitoring: true  # No memory tracking
+  disable_progress_reporting: true # No progress reports
+
+# Disabled Features (for maximum performance)
+disabled_features:
+  - "wandb"
+  - "tensorboard"
+  - "progress_bars"
+  - "detailed_logging"
+  - "memory_monitoring"
+  - "validation_during_training"
+  - "metric_computation"
+  - "external_reporting"
+  - "visualization_dashboards"
+  - "background_monitoring"
+
+# Dataset Configuration
+datasets:
+  use_full_datasets: true          # No sample limiting
+  no_validation_split: true        # All data for training
+  minimal_preprocessing: true      # Essential preprocessing only
+
+# Training Focus
+focus:
+  objective: "maximum_cpu_utilization"
+  priority: "training_speed"
+  resource_allocation: "100_percent_training"

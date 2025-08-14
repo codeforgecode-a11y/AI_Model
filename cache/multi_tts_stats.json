@@ -1,0 +1,28 @@
+{
+  "total_requests": 7,
+  "engine_usage": {
+    "elevenlabs": {
+      "count": 0,
+      "total_time": 0.0,
+      "errors": 0
+    },
+    "mozilla": {
+      "count": 0,
+      "total_time": 0.0,
+      "errors": 0
+    },
+    "pyttsx3": {
+      "count": 7,
+      "total_time": 0.5049948692321777,
+      "errors": 0
+    }
+  },
+  "routing_decisions": {
+    "final_fallback": 7
+  },
+  "quality_feedback": {},
+  "cost_tracking": {
+    "elevenlabs_credits_used": 0,
+    "total_characters_processed": 1003
+  }
+}

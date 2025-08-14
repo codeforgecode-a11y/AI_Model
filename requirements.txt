@@ -1,0 +1,8 @@
+# Core dependencies for text-based AI chat companion
+# LLM Integration
+ollama>=0.1.7
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+colorama>=0.4.6

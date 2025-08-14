@@ -1,0 +1,770 @@
+2025-08-10 13:53:58,307 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 13:53:58,478 - INFO - 🧠 Loading Whisper model: base (optimized for low-resource systems)
+2025-08-10 13:53:58,478 - ERROR - Failed to load Whisper model: module 'whisper' has no attribute 'load_model'
+2025-08-10 13:53:58,478 - ERROR - Initialization failed: module 'whisper' has no attribute 'load_model'
+2025-08-10 13:53:58,478 - ERROR - Application failed: module 'whisper' has no attribute 'load_model'
+2025-08-10 16:20:07,099 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 16:20:07,248 - INFO - 🧠 Loading Whisper model: base (optimized for low-resource systems)
+2025-08-10 16:20:36,508 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 16:20:36,661 - INFO - 🔊 TTS engine initialized
+2025-08-10 16:20:36,664 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 16:20:36,664 - ERROR - Failed to connect to Ollama: 'name'
+2025-08-10 16:20:36,665 - ERROR - Initialization failed: 'name'
+2025-08-10 16:20:36,665 - ERROR - Application failed: 'name'
+2025-08-10 16:25:51,883 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 16:25:52,093 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 16:25:53,392 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 16:25:53,482 - INFO - 🔊 TTS engine initialized
+2025-08-10 16:25:53,482 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 16:25:53,493 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 16:25:53,494 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 16:25:53,494 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 16:25:53,494 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 16:25:53,494 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 16:28:16,554 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 16:28:16,756 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 16:28:17,690 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 16:28:17,751 - INFO - 🔊 TTS engine initialized
+2025-08-10 16:28:17,751 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 16:28:17,756 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 16:28:17,757 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 16:28:17,757 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 16:28:17,757 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 16:28:17,757 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 16:28:37,333 - INFO - 🎤 Recording started
+2025-08-10 16:29:18,568 - INFO - 🛑 Recording stopped
+2025-08-10 16:29:19,991 - INFO - 🗣️  Transcribed: The
+2025-08-10 16:29:29,311 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 16:29:29,312 - INFO - 🤖 LLM Response: It looks like you're about to start a sentence. If you'd like to share it, I'm here to listen and help if I can. Otherwise, I can provide general information or guidance on a topic that's on your mind. What would you like to talk about?
+2025-08-10 16:29:29,312 - INFO - 🗨️  Speaking: It looks like you're about to start a sentence. If you'd like to share it, I'm here to listen and help if I can. Otherwise, I can provide general information or guidance on a topic that's on your mind. What would you like to talk about?
+2025-08-10 16:29:29,357 - INFO - 🎤 Recording started
+2025-08-10 16:40:02,522 - ERROR - Application failed: Stream not open
+2025-08-10 16:40:18,547 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 16:40:18,725 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 16:40:20,309 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 16:40:20,496 - INFO - 🔊 TTS engine initialized
+2025-08-10 16:40:20,496 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 16:40:20,501 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 16:40:20,502 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 16:40:20,502 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 16:40:20,502 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 16:40:20,503 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 16:40:28,206 - INFO - 🎤 Recording started
+2025-08-10 16:40:36,217 - INFO - 🛑 Recording stopped
+2025-08-10 16:40:37,345 - INFO - 🗣️  Transcribed: Hey, guys! How are you? I said what?
+2025-08-10 16:40:46,334 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 16:40:46,335 - INFO - 🤖 LLM Response: I're not sure I understood the context of your question. You said "How are you?" but then asked about something else. Could you please clarify or provide more information about what you meant by that? I'm here to help and want to make sure I understand your question correctly.
+2025-08-10 16:40:46,335 - INFO - 🗨️  Speaking: I're not sure I understood the context of your question. You said "How are you?" but then asked about something else. Could you please clarify or provide more information about what you meant by that? I'm here to help and want to make sure I understand your question correctly.
+2025-08-10 16:44:36,180 - INFO - 🎤 Recording started
+2025-08-10 17:10:35,173 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:10:35,338 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 17:10:36,395 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 17:10:36,454 - INFO - 🔊 TTS engine initialized
+2025-08-10 17:10:36,454 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 17:10:36,461 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 17:10:36,463 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 17:10:36,463 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 17:10:36,464 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 17:10:36,464 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 17:10:40,899 - ERROR - Failed to start recording: [Errno -9997] Invalid sample rate
+2025-08-10 17:10:40,899 - ERROR - Voice input processing failed: [Errno -9997] Invalid sample rate
+2025-08-10 17:10:44,937 - ERROR - Failed to start recording: [Errno -9997] Invalid sample rate
+2025-08-10 17:10:44,937 - ERROR - Voice input processing failed: [Errno -9997] Invalid sample rate
+2025-08-10 17:10:53,695 - ERROR - Failed to start recording: [Errno -9997] Invalid sample rate
+2025-08-10 17:10:53,695 - ERROR - Voice input processing failed: [Errno -9997] Invalid sample rate
+2025-08-10 17:13:27,495 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:13:27,498 - ERROR - Initialization failed: [Errno -9999] Unanticipated host error
+2025-08-10 17:13:27,498 - ERROR - Application failed: [Errno -9999] Unanticipated host error
+2025-08-10 17:14:33,228 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:14:33,525 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 17:14:33,525 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 17:14:34,515 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 17:14:34,563 - INFO - 🔊 TTS engine initialized
+2025-08-10 17:14:34,563 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 17:14:34,570 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 17:14:34,570 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 17:14:34,571 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 17:14:34,571 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 17:14:34,571 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 17:14:58,643 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:14:58,846 - INFO - 🛑 Recording stopped
+2025-08-10 17:14:58,846 - INFO - Audio too short, skipping transcription
+2025-08-10 17:15:04,736 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:15:12,354 - INFO - 🛑 Recording stopped
+2025-08-10 17:15:14,043 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:15:45,779 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:15:46,095 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 17:15:46,101 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 17:15:46,980 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 17:15:47,026 - INFO - 🔊 TTS engine initialized
+2025-08-10 17:15:47,027 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 17:15:47,032 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 17:15:47,033 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 17:15:47,033 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 17:15:47,034 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 17:15:47,034 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 17:15:51,135 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:15:57,602 - INFO - 🛑 Recording stopped
+2025-08-10 17:15:58,845 - INFO - 🗣️  Transcribed: The Drogs The Drogs The Drogs The Drogs The Drogs
+2025-08-10 17:16:08,868 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 17:16:08,869 - INFO - 🤖 LLM Response: It seems like you're repeating the same phrase over and over again. Would you like to talk about something specific or is there another topic you'd like to discuss? I'm here to listen and help if I can.
+2025-08-10 17:16:08,869 - INFO - 🗨️  Speaking: It seems like you're repeating the same phrase over and over again. Would you like to talk about something specific or is there another topic you'd like to discuss? I'm here to listen and help if I can.
+2025-08-10 17:16:39,547 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:16:43,218 - INFO - 🛑 Recording stopped
+2025-08-10 17:16:43,857 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:20:10,267 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:20:15,618 - INFO - 🛑 Recording stopped
+2025-08-10 17:20:16,229 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:20:25,604 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:20:31,530 - INFO - 🛑 Recording stopped
+2025-08-10 17:20:32,114 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:32:41,200 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:32:46,785 - INFO - 🛑 Recording stopped
+2025-08-10 17:32:47,393 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:03,185 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:36:03,501 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 17:36:03,501 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 17:36:04,521 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 17:36:04,578 - INFO - 🔊 TTS engine initialized
+2025-08-10 17:36:04,578 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 17:36:04,586 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 17:36:04,587 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 17:36:04,588 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 17:36:04,588 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 17:36:04,589 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 17:36:04,637 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:07,672 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:07,674 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:07,674 - INFO - Processing audio: 65536 samples, energy: 0.2635, max: 1.000
+2025-08-10 17:36:08,867 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:09,395 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:12,429 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:12,430 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:12,430 - INFO - Processing audio: 65536 samples, energy: 0.2859, max: 1.000
+2025-08-10 17:36:13,263 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:13,794 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:16,825 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:16,826 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:16,826 - INFO - Processing audio: 65536 samples, energy: 0.2342, max: 1.000
+2025-08-10 17:36:17,576 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:18,102 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:21,134 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:21,135 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:21,136 - INFO - Processing audio: 65536 samples, energy: 0.2508, max: 1.000
+2025-08-10 17:36:22,026 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:22,555 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:25,570 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:25,571 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:25,571 - INFO - Processing audio: 65536 samples, energy: 0.2483, max: 1.000
+2025-08-10 17:36:26,538 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:27,065 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:30,093 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:30,094 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:30,094 - INFO - Processing audio: 65536 samples, energy: 0.2663, max: 1.000
+2025-08-10 17:36:30,974 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:31,510 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:34,535 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:34,536 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:34,536 - INFO - Processing audio: 65536 samples, energy: 0.2663, max: 1.000
+2025-08-10 17:36:35,552 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:36,080 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:39,097 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:39,098 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:39,098 - INFO - Processing audio: 65536 samples, energy: 0.2491, max: 1.000
+2025-08-10 17:36:39,878 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:40,409 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:43,427 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:43,429 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:43,429 - INFO - Processing audio: 65536 samples, energy: 0.2614, max: 1.000
+2025-08-10 17:36:44,200 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:44,726 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:47,761 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:47,761 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:47,762 - INFO - Processing audio: 65536 samples, energy: 0.2775, max: 1.000
+2025-08-10 17:36:48,528 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:49,061 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:52,090 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:52,090 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:52,091 - INFO - Processing audio: 65536 samples, energy: 0.2707, max: 1.000
+2025-08-10 17:36:52,877 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:53,409 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:36:56,442 - INFO - 🛑 Recording stopped
+2025-08-10 17:36:56,443 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:36:56,444 - INFO - Processing audio: 65536 samples, energy: 0.2727, max: 1.000
+2025-08-10 17:36:57,214 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:36:57,744 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:00,774 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:00,774 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:00,775 - INFO - Processing audio: 65536 samples, energy: 0.2500, max: 1.000
+2025-08-10 17:37:01,612 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:02,139 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:05,168 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:05,169 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:05,169 - INFO - Processing audio: 65536 samples, energy: 0.2678, max: 1.000
+2025-08-10 17:37:06,116 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:06,645 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:09,670 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:09,671 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:09,671 - INFO - Processing audio: 65536 samples, energy: 0.2268, max: 1.000
+2025-08-10 17:37:10,595 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:11,132 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:14,152 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:14,152 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:14,153 - INFO - Processing audio: 65536 samples, energy: 0.2286, max: 1.000
+2025-08-10 17:37:15,405 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:15,941 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:18,971 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:18,973 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:18,973 - INFO - Processing audio: 65536 samples, energy: 0.2462, max: 1.000
+2025-08-10 17:37:20,035 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:20,582 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:23,622 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:23,623 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:23,623 - INFO - Processing audio: 65536 samples, energy: 0.2389, max: 1.000
+2025-08-10 17:37:24,491 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:25,019 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:28,038 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:28,039 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:28,040 - INFO - Processing audio: 65536 samples, energy: 0.2731, max: 1.000
+2025-08-10 17:37:28,700 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:29,236 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:32,262 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:32,263 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:32,263 - INFO - Processing audio: 65536 samples, energy: 0.2797, max: 1.000
+2025-08-10 17:37:33,287 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:33,826 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:36,849 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:36,850 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:36,850 - INFO - Processing audio: 65536 samples, energy: 0.2542, max: 1.000
+2025-08-10 17:37:37,497 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:38,026 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:41,052 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:41,053 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:41,053 - INFO - Processing audio: 65536 samples, energy: 0.2331, max: 1.000
+2025-08-10 17:37:41,736 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:42,272 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:45,298 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:45,298 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:45,299 - INFO - Processing audio: 65536 samples, energy: 0.2507, max: 1.000
+2025-08-10 17:37:46,241 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:46,773 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:49,800 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:49,800 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:49,801 - INFO - Processing audio: 65536 samples, energy: 0.2212, max: 1.000
+2025-08-10 17:37:50,430 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:50,953 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:53,981 - INFO - 🛑 Recording stopped
+2025-08-10 17:37:53,981 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 17:37:53,982 - INFO - Processing audio: 65536 samples, energy: 0.2448, max: 1.000
+2025-08-10 17:37:54,697 - INFO - 🗣️  Transcribed: 
+2025-08-10 17:37:55,220 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 17:37:59,849 - ERROR - Application failed: Stream not open
+2025-08-10 17:44:05,582 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:44:05,740 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 17:44:05,741 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 17:44:06,611 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 17:44:06,650 - INFO - 🔊 TTS engine initialized
+2025-08-10 17:44:06,650 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 17:44:06,655 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 17:44:06,656 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 17:44:06,656 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 17:44:06,656 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 17:44:06,656 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 17:46:58,740 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:46:59,103 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 17:46:59,104 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 17:47:00,121 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 17:47:00,187 - INFO - 🔊 TTS engine initialized
+2025-08-10 17:47:00,187 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 17:47:00,196 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 17:47:00,198 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 17:47:00,198 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 17:47:00,199 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 17:47:00,199 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 17:47:11,202 - INFO - 📝 Text input received: Hey Jarvis
+2025-08-10 17:47:15,561 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 17:47:15,561 - INFO - 🤖 LLM Response: How can I assist you today?
+2025-08-10 17:47:15,561 - INFO - 🗨️  Speaking: How can I assist you today?
+2025-08-10 17:48:23,808 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 17:48:24,035 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 17:48:24,041 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 17:48:24,961 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 17:48:25,015 - INFO - 🔊 TTS engine initialized
+2025-08-10 17:48:25,015 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 17:48:25,020 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 17:48:25,022 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 17:48:25,022 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 17:48:25,023 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 17:48:25,024 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 17:48:35,369 - INFO - 📝 Text input received: Hey
+2025-08-10 17:48:36,268 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 17:48:36,269 - INFO - 🤖 LLM Response: What's on your mind?
+2025-08-10 17:48:36,269 - INFO - 🗨️  Speaking: What's on your mind?
+2025-08-10 17:48:49,783 - INFO - 📝 Text input received: You speak to fast why?
+2025-08-10 17:48:59,802 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 17:48:59,803 - INFO - 🤖 LLM Response: I'm designed to process and respond to text-based inputs quickly, but I don't speak at a human-like speed. My responses are generated based on the algorithms and models used by my creators, which allow me to generate text rapidly.
+
+In fact, research suggests that humans typically process and understand language at a rate of around 200-250 words per minute (wpm). This is much faster than the typical reading speed for most people.
+
+That being said, I can try to provide more detailed or
+2025-08-10 17:48:59,803 - INFO - 🗨️  Speaking: I'm designed to process and respond to text-based inputs quickly, but I don't speak at a human-like speed. My responses are generated based on the algorithms and models used by my creators, which allow me to generate text rapidly.
+
+In fact, research suggests that humans typically process and understand language at a rate of around 200-250 words per minute (wpm). This is much faster than the typical reading speed for most people.
+
+That being said, I can try to provide more detailed or
+2025-08-10 17:49:44,183 - INFO - 📝 Text input received: wow
+2025-08-10 17:49:51,495 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 17:49:51,495 - INFO - 🤖 LLM Response: I'm glad you're impressed. Just to put your mind at ease, though, I don't have a physical presence or consciousness like a human would. I'm simply a computer program designed to process and respond to text-based input.
+
+That being said, if you want to chat about something in particular or ask a question, I'm here to help!
+2025-08-10 17:49:51,496 - INFO - 🗨️  Speaking: I'm glad you're impressed. Just to put your mind at ease, though, I don't have a physical presence or consciousness like a human would. I'm simply a computer program designed to process and respond to text-based input.
+
+That being said, if you want to chat about something in particular or ask a question, I'm here to help!
+2025-08-10 17:52:26,709 - INFO - 🗨️  Speaking: Goodbye! It was nice talking with you.
+2025-08-10 17:52:29,801 - INFO - 🧹 Cleanup completed
+2025-08-10 18:02:23,420 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 18:02:23,581 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 18:02:23,581 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 18:02:24,457 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 18:02:24,496 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 18:02:24,496 - INFO - 🔊 TTS engine initialized with rate: 100 WPM
+2025-08-10 18:02:24,497 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 18:02:24,502 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 18:02:24,503 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 18:02:24,503 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 18:02:24,503 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:02:24,504 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 18:02:24,504 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 18:02:24,504 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:02:36,659 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:02:40,980 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 18:02:46,081 - INFO - 📝 Text input received: Hey Jarvis
+2025-08-10 18:02:50,150 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:02:50,151 - INFO - 🤖 LLM Response: How can I assist you today?
+2025-08-10 18:02:50,151 - INFO - 🗨️  Speaking: How can I assist you today? (Rate: 100 WPM)
+2025-08-10 18:03:08,477 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:03:11,496 - INFO - 🛑 Recording stopped
+2025-08-10 18:03:11,497 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:03:11,498 - INFO - Processing audio: 63488 samples, energy: 0.2884, max: 1.000
+2025-08-10 18:03:15,325 - INFO - 🗣️  Transcribed: I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous. I'm going to be a little bit more nervous.
+2025-08-10 18:03:15,325 - ERROR - Wake word detection failed: 'AnsiFore' object has no attribute 'GRAY'
+2025-08-10 18:03:18,973 - ERROR - Application failed: Stream not open
+2025-08-10 18:04:34,971 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 18:04:35,259 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 18:04:35,259 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 18:04:36,212 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 18:04:36,271 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 18:04:36,271 - INFO - 🔊 TTS engine initialized with rate: 100 WPM
+2025-08-10 18:04:36,271 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 18:04:36,279 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 18:04:36,280 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 18:04:36,280 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 18:04:36,280 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:04:36,280 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 18:04:36,280 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 18:04:36,280 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:05:00,203 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:05:10,446 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 18:05:15,187 - INFO - 📝 Text input received: Hey main
+2025-08-10 18:05:20,767 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:05:20,767 - INFO - 🤖 LLM Response: What's on your mind? Want to talk about something in particular or just shoot the breeze?
+2025-08-10 18:05:20,768 - INFO - 🗨️  Speaking: What's on your mind? Want to talk about something in particular or just shoot the breeze? (Rate: 100 WPM)
+2025-08-10 18:05:47,100 - INFO - 🎚️  Speech rate set to: 90 WPM
+2025-08-10 18:05:47,100 - INFO - 🗨️  Speaking: Speech rate set to slow. (Rate: 90 WPM)
+2025-08-10 18:06:11,867 - INFO - 📝 Text input received: What's the weather like?
+2025-08-10 18:06:12,006 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:06:21,979 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:06:21,980 - INFO - 🤖 LLM Response 🌐: It sounds like you're describing quite a bit of weather. The clear sky and low humidity might make it feel warmer than the actual temperature, but it's still quite chilly at just 4 degrees Celsius (39 degrees Fahrenheit) outside in your vehicle. You'll want to make sure you're all set with some warm clothing before heading out.
+2025-08-10 18:06:21,980 - INFO - 🗨️  Speaking: It sounds like you're describing quite a bit of weather. The clear sky and low humidity might make it feel warmer than the actual temperature, but it's still quite chilly at just 4 degrees Celsius (39 degrees Fahrenheit) outside in your vehicle. You'll want to make sure you're all set with some warm clothing before heading out. (Rate: 90 WPM)
+2025-08-10 18:08:02,556 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 18:08:02,794 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 18:08:02,796 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 18:08:03,755 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 18:08:03,807 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 18:08:03,807 - INFO - 🔊 TTS engine initialized with rate: 100 WPM
+2025-08-10 18:08:03,807 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 18:08:03,812 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 18:08:03,813 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 18:08:03,813 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 18:08:03,813 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:08:03,813 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 18:08:03,813 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 18:08:03,813 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:08:09,446 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:08:12,279 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 18:08:28,699 - INFO - 📝 Text input received: Hey Jarvis
+2025-08-10 18:08:28,700 - INFO - 🗨️  Speaking: Hey Jarvis (Rate: 100 WPM)
+2025-08-10 18:08:43,113 - INFO - 📝 Text input received: Hey
+2025-08-10 18:08:43,114 - INFO - 🗨️  Speaking: Hey (Rate: 100 WPM)
+2025-08-10 18:08:50,250 - INFO - 🧹 Cleanup completed
+2025-08-10 18:08:57,381 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 18:08:57,752 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 18:08:57,753 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 18:08:58,650 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 18:08:58,710 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 18:08:58,710 - INFO - 🔊 TTS engine initialized with rate: 100 WPM
+2025-08-10 18:08:58,710 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 18:08:58,716 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 18:08:58,717 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 18:08:58,718 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 18:08:58,718 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:08:58,718 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 18:08:58,718 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 18:08:58,719 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:09:14,598 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:09:16,608 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 18:09:19,719 - INFO - 📝 Text input received: Hey jarvis
+2025-08-10 18:09:20,744 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:09:20,744 - INFO - 🤖 LLM Response: How can I assist you today?
+2025-08-10 18:09:20,745 - INFO - 🗨️  Speaking: How can I assist you today? (Rate: 100 WPM)
+2025-08-10 18:10:06,929 - INFO - 📝 Text input received: What are you doing
+2025-08-10 18:10:21,047 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:10:21,048 - INFO - 🤖 LLM Response: I'm a large language model, so I'm always "doing" something. Currently, I'm processing your question and generating a response based on my training data. This may involve retrieving information from various sources, understanding the context of your query, and generating text that's relevant and accurate.
+
+In terms of specific activities, I might be:
+
+* Retrieving definitions for words you ask about
+* Providing suggestions or ideas based on our conversation so far
+* Offering explanations or examples to help illustrate a point
+* Engaging in a conversation or responding to questions as if I were an human
+
+My primary goal is to assist and provide helpful information to the best of my abilities. How can I help you today?
+2025-08-10 18:10:21,048 - INFO - 🗨️  Speaking: I'm a large language model, so I'm always "doing" something. Currently, I'm processing your question and generating a response based on my training data. This may involve retrieving information from various sources, understanding the context of your query, and generating text that's relevant and accurate.
+
+In terms of specific activities, I might be:
+
+* Retrieving definitions for words you ask about
+* Providing suggestions or ideas based on our conversation so far
+* Offering explanations or examples to help illustrate a point
+* Engaging in a conversation or responding to questions as if I were an human
+
+My primary goal is to assist and provide helpful information to the best of my abilities. How can I help you today? (Rate: 100 WPM)
+2025-08-10 18:10:42,925 - INFO - 🗨️  Speaking: Goodbye! It was nice talking with you. (Rate: 100 WPM)
+2025-08-10 18:10:48,866 - INFO - 🧹 Cleanup completed
+2025-08-10 18:16:37,867 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 18:16:38,031 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 18:16:38,032 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 18:16:38,862 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 18:16:38,898 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 18:16:38,898 - INFO - 🔊 TTS engine initialized with rate: 140 WPM
+2025-08-10 18:16:38,898 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 18:16:38,903 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 18:16:38,903 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 18:16:38,904 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 18:16:38,904 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:16:38,904 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 18:16:38,904 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 18:16:38,904 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:16:44,802 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:16:46,961 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 18:16:46,982 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:16:49,998 - INFO - 🛑 Recording stopped
+2025-08-10 18:16:49,999 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:16:50,000 - INFO - Processing audio: 63488 samples, energy: 0.2933, max: 1.000
+2025-08-10 18:16:50,939 - INFO - 🗣️  Transcribed: Hey, damn you!
+2025-08-10 18:16:50,939 - ERROR - Wake word detection failed: 'AnsiFore' object has no attribute 'GRAY'
+2025-08-10 18:17:17,182 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:17:24,213 - INFO - 🛑 Recording stopped
+2025-08-10 18:17:24,215 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:17:24,215 - INFO - Processing audio: 152064 samples, energy: 0.2894, max: 1.000
+2025-08-10 18:17:28,043 - INFO - 🗣️  Transcribed: Hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey
+2025-08-10 18:17:44,576 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:17:44,576 - INFO - 🤖 LLM Response: It seems like you're trying to convey a lot of energy and excitement with your text. While I appreciate the enthusiasm, I want to make sure we have a respectful conversation. Would you like to talk about something in particular or just chat about your day? I'm here to listen and help if I can.
+2025-08-10 18:17:44,577 - INFO - 🗨️  Speaking: It seems like you're trying to convey a lot of energy and excitement with your text. While I appreciate the enthusiasm, I want to make sure we have a respectful conversation. Would you like to talk about something in particular or just chat about your day? I'm here to listen and help if I can. (Rate: 140 WPM)
+2025-08-10 18:17:44,614 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:17:47,632 - INFO - 🛑 Recording stopped
+2025-08-10 18:17:47,633 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:17:47,633 - INFO - Processing audio: 63488 samples, energy: 0.2925, max: 1.000
+2025-08-10 18:17:48,205 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:17:48,724 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:17:51,748 - INFO - 🛑 Recording stopped
+2025-08-10 18:17:51,749 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:17:51,749 - INFO - Processing audio: 65536 samples, energy: 0.2775, max: 1.000
+2025-08-10 18:17:52,423 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:17:52,943 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:17:55,973 - INFO - 🛑 Recording stopped
+2025-08-10 18:17:55,973 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:17:55,974 - INFO - Processing audio: 65536 samples, energy: 0.2797, max: 1.000
+2025-08-10 18:17:56,865 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:17:57,384 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:00,410 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:00,410 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:00,411 - INFO - Processing audio: 65536 samples, energy: 0.2766, max: 1.000
+2025-08-10 18:18:01,029 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:01,549 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:04,570 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:04,571 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:04,571 - INFO - Processing audio: 65536 samples, energy: 0.2771, max: 1.000
+2025-08-10 18:18:05,268 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:05,787 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:08,816 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:08,816 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:08,817 - INFO - Processing audio: 65536 samples, energy: 0.2822, max: 1.000
+2025-08-10 18:18:09,355 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:09,874 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:12,890 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:12,891 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:12,891 - INFO - Processing audio: 65536 samples, energy: 0.2746, max: 1.000
+2025-08-10 18:18:13,458 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:13,978 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:17,008 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:17,009 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:17,009 - INFO - Processing audio: 65536 samples, energy: 0.2731, max: 1.000
+2025-08-10 18:18:17,666 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:18,185 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:19,571 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:22,600 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:22,601 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:22,602 - INFO - Processing audio: 162304 samples, energy: 0.2805, max: 1.000
+2025-08-10 18:18:23,265 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:23,781 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:24,564 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:25,865 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:28,927 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:28,930 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:28,931 - INFO - Processing audio: 384000 samples, energy: 0.2797, max: 1.000
+2025-08-10 18:18:29,604 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:30,120 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:33,148 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:33,151 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-10 18:18:33,152 - INFO - Processing audio: 265728 samples, energy: 0.2847, max: 1.000
+2025-08-10 18:18:33,689 - INFO - 🗣️  Transcribed: 
+2025-08-10 18:18:34,207 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:36,182 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:36,481 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:36,675 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:36,862 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:37,084 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:37,312 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:39,893 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:40,444 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:40,694 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:45,834 - INFO - 🛑 Recording stopped
+2025-08-10 18:18:46,073 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:18:46,285 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-10 18:19:14,257 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 18:19:14,543 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 18:19:14,547 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 18:19:15,647 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 18:19:15,749 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 18:19:15,749 - INFO - 🔊 TTS engine initialized with rate: 140 WPM
+2025-08-10 18:19:15,750 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 18:19:15,753 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 18:19:15,754 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 18:19:15,754 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 18:19:15,755 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:19:15,755 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 18:19:15,755 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 18:19:15,755 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:19:19,223 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:19:21,023 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 18:19:33,792 - INFO - 📝 Text input received: What is today weather?
+2025-08-10 18:19:36,222 - WARNING - URL error on attempt 1: [Errno 104] Connection reset by peer
+2025-08-10 18:19:37,848 - INFO - 🔍 Found 1 search results for: What is today weather?
+2025-08-10 18:19:55,405 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:19:55,406 - INFO - 🤖 LLM Response 🌐: Based on the information provided, I couldn't find any specific details about the weather conditions for today, August 10, 2025. The web search results I provided earlier were focused on searching for "What is today's weather?" rather than specifically asking about the current weather.
+
+However, I can suggest some alternatives to help you find the information you're looking for:
+
+1. Check online weather websites: You can check websites like AccuWeather, Weather.com, or the National Weather Service (NWS) for the current weather conditions and forecast in Asia/Kolkata.
+2. Use a mobile app: Download a weather app on your phone, such as Dark Sky or Weather Underground, which provide real-time weather information and forecasts.
+3. Check with
+2025-08-10 18:19:55,406 - INFO - 🗨️  Speaking: Based on the information provided, I couldn't find any specific details about the weather conditions for today, August 10, 2025. The web search results I provided earlier were focused on searching for "What is today's weather?" rather than specifically asking about the current weather.
+
+However, I can suggest some alternatives to help you find the information you're looking for:
+
+1. Check online weather websites: You can check websites like AccuWeather, Weather.com, or the National Weather Service (NWS) for the current weather conditions and forecast in Asia/Kolkata.
+2. Use a mobile app: Download a weather app on your phone, such as Dark Sky or Weather Underground, which provide real-time weather information and forecasts.
+3. Check with (Rate: 140 WPM)
+2025-08-10 18:21:13,535 - INFO - 📝 Text input received: what AI
+2025-08-10 18:21:14,764 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:21:14,765 - INFO - 🤖 LLM Response: I can't help with that.
+2025-08-10 18:21:14,765 - INFO - 🗨️  Speaking: I can't help with that. (Rate: 140 WPM)
+2025-08-10 18:21:30,201 - INFO - 📝 Text input received: Hey, I am durgesh Kumar
+2025-08-10 18:21:32,105 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:21:32,106 - INFO - 🤖 LLM Response: Durgesh Kumar. What can I assist you with today?
+2025-08-10 18:21:32,106 - INFO - 🗨️  Speaking: Durgesh Kumar. What can I assist you with today? (Rate: 140 WPM)
+2025-08-10 18:21:55,230 - INFO - 📝 Text input received: help me , what is include in c language
+2025-08-10 18:21:55,281 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:21:56,102 - INFO - 🔍 Found 1 search results for: help me , what is include in c language
+2025-08-10 18:22:12,922 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:22:12,923 - INFO - 🤖 LLM Response 🌐: Hello Durgesh Kumar,
+
+In C programming language, the following are some of the basic components that you need to know:
+
+1. **Variables**: Variables are used to store and hold values. You can declare variables using the `type name` syntax (e.g., `int x;`).
+
+2. **Data Types**:
+   - `int`: Whole numbers
+   - `float`: Floating point numbers
+   - `char`: Single character
+   - `double`: Double precision floating point number
+   - `bool`: Boolean value (True or False)
+
+3. **Operators**: Basic arithmetic operators (+, -, \*, /, %), comparison operators (!=, ==, !=, >, <, >=, <=), logical
+2025-08-10 18:22:12,923 - INFO - 🗨️  Speaking: Hello Durgesh Kumar,
+
+In C programming language, the following are some of the basic components that you need to know:
+
+1. **Variables**: Variables are used to store and hold values. You can declare variables using the `type name` syntax (e.g., `int x;`).
+
+2. **Data Types**:
+   - `int`: Whole numbers
+   - `float`: Floating point numbers
+   - `char`: Single character
+   - `double`: Double precision floating point number
+   - `bool`: Boolean value (True or False)
+
+3. **Operators**: Basic arithmetic operators (+, -, \*, /, %), comparison operators (!=, ==, !=, >, <, >=, <=), logical (Rate: 140 WPM)
+2025-08-10 18:22:43,163 - INFO - 📝 Text input received: Good
+2025-08-10 18:22:46,939 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:22:46,939 - INFO - 🤖 LLM Response: If you're looking for a specific topic related to C programming, feel free to ask and I'll do my best to help. What's on your mind today?
+2025-08-10 18:22:46,940 - INFO - 🗨️  Speaking: If you're looking for a specific topic related to C programming, feel free to ask and I'll do my best to help. What's on your mind today? (Rate: 140 WPM)
+2025-08-10 18:22:58,550 - INFO - 📝 Text input received: What is my corrent context?
+2025-08-10 18:22:58,770 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:22:59,796 - INFO - 🔍 Found 1 search results for: What is my corrent context?
+2025-08-10 18:23:16,196 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:23:16,197 - INFO - 🤖 LLM Response 🌐: Your current context appears to be a text-based conversation with me. You're likely typing out questions or topics you'd like to discuss, and I'm responding accordingly.
+
+You initially asked about the weather in Asia/Kolkata, but we didn't get any further details. Then, you mentioned checking online weather websites or using mobile apps, which led us to talk about programming languages.
+
+After that, you introduced yourself as Durgesh Kumar, and I responded with a friendly greeting.
+
+Now, you've asked what's your current context, which is simply a matter of clarifying where we are in our conversation. You can think of it like a "backstory" or a summary of what's been discussed so far.
+2025-08-10 18:23:16,197 - INFO - 🗨️  Speaking: Your current context appears to be a text-based conversation with me. You're likely typing out questions or topics you'd like to discuss, and I'm responding accordingly.
+
+You initially asked about the weather in Asia/Kolkata, but we didn't get any further details. Then, you mentioned checking online weather websites or using mobile apps, which led us to talk about programming languages.
+
+After that, you introduced yourself as Durgesh Kumar, and I responded with a friendly greeting.
+
+Now, you've asked what's your current context, which is simply a matter of clarifying where we are in our conversation. You can think of it like a "backstory" or a summary of what's been discussed so far. (Rate: 140 WPM)
+2025-08-10 18:28:14,879 - INFO - 🗨️  Speaking: Goodbye! It was nice talking with you. (Rate: 140 WPM)
+2025-08-10 18:28:18,979 - INFO - 🧹 Cleanup completed
+2025-08-10 18:41:09,359 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 18:41:09,639 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 18:41:09,639 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 18:41:10,554 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 18:41:10,604 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 18:41:10,604 - INFO - 🔊 TTS engine initialized with rate: 140 WPM
+2025-08-10 18:41:10,605 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 18:41:10,611 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 18:41:10,612 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 18:41:10,612 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 18:41:10,612 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:41:10,612 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 18:41:10,612 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 18:41:10,612 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 18:41:26,033 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:41:29,035 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 18:41:32,876 - INFO - 📝 Text input received: Hey Jarvis
+2025-08-10 18:41:37,871 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:41:37,872 - INFO - 🤖 LLM Response: How can I assist you today?
+2025-08-10 18:41:37,872 - INFO - 🗨️  Speaking: How can I assist you today? (Rate: 140 WPM)
+2025-08-10 18:41:58,446 - INFO - 📝 Text input received: what is algorithms?
+2025-08-10 18:41:58,593 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 18:41:59,008 - INFO - 🔍 Found 5 search results for: what is algorithms?
+2025-08-10 18:42:20,488 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 18:42:20,488 - INFO - 🤖 LLM Response 🌐: It seems like you're looking to understand what an algorithm is in different contexts. Let's break it down.
+
+An **algorithm** is a well-defined procedure or set of instructions that can be used to solve a specific problem, perform a particular task, or make a prediction. It's a set of steps that are followed in a logical order to achieve a desired outcome.
+
+In mathematics and computer science, an algorithm is typically defined as:
+
+* A finite sequence of mathematical operations (e.g., arithmetic, algebraic, logical) that takes input data and produces output.
+* A procedure or set of instructions that can be executed by a computer or other digital device.
+* A step-by-step process used to solve a problem, make a decision, or perform
+2025-08-10 18:42:20,489 - INFO - 🗨️  Speaking: It seems like you're looking to understand what an algorithm is in different contexts. Let's break it down.
+
+An **algorithm** is a well-defined procedure or set of instructions that can be used to solve a specific problem, perform a particular task, or make a prediction. It's a set of steps that are followed in a logical order to achieve a desired outcome.
+
+In mathematics and computer science, an algorithm is typically defined as:
+
+* A finite sequence of mathematical operations (e.g., arithmetic, algebraic, logical) that takes input data and produces output.
+* A procedure or set of instructions that can be executed by a computer or other digital device.
+* A step-by-step process used to solve a problem, make a decision, or perform (Rate: 140 WPM)
+2025-08-10 18:47:36,636 - INFO - 🗨️  Speaking: Goodbye! It was nice talking with you. (Rate: 140 WPM)
+2025-08-10 18:47:40,716 - INFO - 🧹 Cleanup completed
+2025-08-10 20:08:17,758 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-10 20:08:18,060 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-10 20:08:18,061 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-10 20:08:19,067 - INFO - ✅ Whisper model loaded successfully
+2025-08-10 20:08:19,115 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-10 20:08:19,115 - INFO - 🔊 TTS engine initialized with rate: 140 WPM
+2025-08-10 20:08:19,116 - INFO - 🔍 Testing Ollama connection...
+2025-08-10 20:08:19,128 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-10 20:08:19,129 - INFO - Available models: ['llama3.2:1b']
+2025-08-10 20:08:19,129 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-10 20:08:19,130 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 20:08:19,130 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-10 20:08:19,130 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-10 20:08:19,130 - INFO - 🌐 Internet mode: hybrid
+2025-08-10 20:08:24,440 - INFO - 🌐 Internet connectivity confirmed
+2025-08-10 20:08:26,132 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-10 20:08:28,279 - INFO - 📝 Text input received: Hey
+2025-08-10 20:08:38,036 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 20:08:38,036 - INFO - 🤖 LLM Response: What's on your mind?
+2025-08-10 20:08:38,036 - INFO - 🗨️  Speaking: What's on your mind? (Rate: 140 WPM)
+2025-08-10 20:08:49,364 - INFO - 📝 Text input received: who am i
+2025-08-10 20:08:58,600 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-10 20:08:58,600 - INFO - 🤖 LLM Response: That's a personal question. Who you are can be complex and multifaceted, and there's no one-size-fits-all answer.
+
+Can you tell me a bit more about what you're thinking or feeling right now? What are some things that you enjoy doing, value in life, or think about frequently? Sometimes talking through your thoughts with someone (even if it's just a virtual conversation like this) can help clarify things and gain new insights.
+2025-08-10 20:08:58,601 - INFO - 🗨️  Speaking: That's a personal question. Who you are can be complex and multifaceted, and there's no one-size-fits-all answer.
+
+Can you tell me a bit more about what you're thinking or feeling right now? What are some things that you enjoy doing, value in life, or think about frequently? Sometimes talking through your thoughts with someone (even if it's just a virtual conversation like this) can help clarify things and gain new insights. (Rate: 140 WPM)
+2025-08-10 20:09:38,633 - INFO - 🗨️  Speaking: Goodbye! It was nice talking with you. (Rate: 140 WPM)
+2025-08-10 20:09:42,660 - INFO - 🧹 Cleanup completed
+2025-08-11 19:54:46,441 - INFO - 🚀 Initializing Voice Companion (optimized for low-resource systems)...
+2025-08-11 19:54:46,615 - INFO - ✅ Found working audio: Device 12, Rate 44100Hz
+2025-08-11 19:54:46,616 - INFO - 🧠 Loading Whisper model: tiny (optimized for low-resource systems)
+2025-08-11 19:54:47,640 - INFO - ✅ Whisper model loaded successfully
+2025-08-11 19:54:47,805 - INFO - 🎭 Using fallback voice: Afrikaans
+2025-08-11 19:54:47,805 - INFO - 🔊 TTS engine initialized with rate: 140 WPM
+2025-08-11 19:54:47,805 - INFO - 🔍 Testing Ollama connection...
+2025-08-11 19:54:47,813 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-08-11 19:54:47,814 - INFO - Available models: ['hhao/qwen2.5-coder-tools:7b', 'llama3.2:1b']
+2025-08-11 19:54:47,814 - INFO - 🤖 LLM ready with model: llama3.2:1b
+2025-08-11 19:54:47,814 - INFO - 🌐 Internet mode: hybrid
+2025-08-11 19:54:47,814 - INFO - ✅ Voice Companion initialized successfully!
+2025-08-11 19:54:47,814 - INFO - 💡 Using Whisper 'tiny' and Ollama 'llama3.2:1b' for optimal performance
+2025-08-11 19:54:47,815 - INFO - 🌐 Internet mode: hybrid
+2025-08-11 19:54:54,213 - INFO - 🌐 Internet connectivity confirmed
+2025-08-11 19:54:58,171 - INFO - 🌐 Internet mode set to: hybrid
+2025-08-11 19:54:58,198 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:01,215 - INFO - 🛑 Recording stopped
+2025-08-11 19:55:01,217 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-11 19:55:01,217 - INFO - Processing audio: 63488 samples, energy: 0.2948, max: 1.000
+2025-08-11 19:55:02,257 - INFO - 🗣️  Transcribed: 
+2025-08-11 19:55:02,776 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:05,801 - INFO - 🛑 Recording stopped
+2025-08-11 19:55:05,801 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-11 19:55:05,802 - INFO - Processing audio: 65536 samples, energy: 0.2841, max: 1.000
+2025-08-11 19:55:06,337 - INFO - 🗣️  Transcribed: 
+2025-08-11 19:55:06,856 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:09,876 - INFO - 🛑 Recording stopped
+2025-08-11 19:55:09,876 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-11 19:55:09,877 - INFO - Processing audio: 65536 samples, energy: 0.2832, max: 1.000
+2025-08-11 19:55:10,407 - INFO - 🗣️  Transcribed: 
+2025-08-11 19:55:10,894 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:12,703 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:13,123 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:13,322 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:13,520 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:13,702 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:15,083 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:15,284 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:15,488 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:18,979 - INFO - 🛑 Recording stopped
+2025-08-11 19:55:18,999 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-11 19:55:19,001 - INFO - Processing audio: 951296 samples, energy: 0.2784, max: 1.000
+2025-08-11 19:55:21,540 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:22,967 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:23,706 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:24,000 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:27,947 - INFO - 🛑 Recording stopped
+2025-08-11 19:55:27,965 - INFO - Applied AGC: reduced gain by 0.300 (max was 1.000)
+2025-08-11 19:55:27,967 - INFO - Processing audio: 1309184 samples, energy: 0.2779, max: 1.000
+2025-08-11 19:55:29,916 - INFO - 🗣️  Transcribed: 
+2025-08-11 19:55:30,435 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:31,160 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)
+2025-08-11 19:55:31,324 - INFO - 🎤 Recording started: 44100Hz, 1 channel(s)

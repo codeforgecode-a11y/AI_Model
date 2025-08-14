@@ -1,0 +1,29 @@
+# CPU-Optimized Training Requirements
+# Optimized for Intel Core i3 systems without GPU
+
+# Core ML Libraries - CPU optimized versions
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+
+# Data Processing
+numpy>=1.21.0
+pandas>=1.5.0
+
+# Configuration and Utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+
+# System monitoring for CPU training
+psutil>=5.9.0
+memory-profiler>=0.60.0
+
+# Development and Testing
+pytest>=7.0.0
+
+# CPU-specific optimizations (optional)
+# intel-extension-for-pytorch  # Uncomment for Intel CPU optimizations
+# mkl>=2023.0.0               # Uncomment for Intel Math Kernel Library
+
+# Note: For CPU-only PyTorch installation, use:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
