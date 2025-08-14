@@ -31,11 +31,18 @@ def check_datasets(max_samples=None):
     """Check if datasets exist and return valid configurations"""
     configs = []
 
+    # Get the project root directory (go up from src/training to project root)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(current_dir))
+    datasets_base = os.path.join(project_root, "data", "Datasets")
+
+    print(f"Looking for datasets in: {datasets_base}")
+
     # Check conversational datasets
     conv_paths = [
-        ("alpaca", "Datasets/Conversational_Datasets/alpaca_dataset/train.jsonl"),
-        ("vicuna", "Datasets/Conversational_Datasets/vicuna_dataset/train.jsonl"),
-        ("wizardlm", "Datasets/Conversational_Datasets/wizardlm_dataset/train.jsonl")
+        ("alpaca", os.path.join(datasets_base, "Conversational_Datasets/alpaca_dataset/train.jsonl")),
+        ("vicuna", os.path.join(datasets_base, "Conversational_Datasets/vicuna_dataset/train.jsonl")),
+        ("wizardlm", os.path.join(datasets_base, "Conversational_Datasets/wizardlm_dataset/train.jsonl"))
     ]
 
     for name, path in conv_paths:
@@ -48,11 +55,13 @@ def check_datasets(max_samples=None):
                 max_samples=sample_limit
             ))
             print(f"✓ Found conversational dataset: {name}")
+        else:
+            print(f"✗ Missing conversational dataset: {path}")
 
     # Check programming datasets
     prog_paths = [
-        ("codealpaca", "Datasets/Programming_DataSets/codealpaca/data/code_alpaca_2k.json"),
-        ("humaneval", "Datasets/Programming_DataSets/human-eval/data/example_problem.jsonl")
+        ("codealpaca", os.path.join(datasets_base, "Programming_DataSets/codealpaca/data/code_alpaca_2k.json")),
+        ("humaneval", os.path.join(datasets_base, "Programming_DataSets/human-eval/data/example_problem.jsonl"))
     ]
 
     for name, path in prog_paths:
@@ -65,9 +74,11 @@ def check_datasets(max_samples=None):
                 max_samples=sample_limit
             ))
             print(f"✓ Found programming dataset: {name}")
+        else:
+            print(f"✗ Missing programming dataset: {path}")
 
     # Check cybersecurity datasets
-    cyber_path = "Datasets/CyberSecurity_DataSets/nvdcve/nvdcve"
+    cyber_path = os.path.join(datasets_base, "CyberSecurity_DataSets/nvdcve/nvdcve")
     if os.path.exists(cyber_path) and os.listdir(cyber_path):
         sample_limit = max_samples if max_samples else 1000
         configs.append(DatasetConfig(
@@ -77,6 +88,8 @@ def check_datasets(max_samples=None):
             max_samples=sample_limit
         ))
         print("✓ Found cybersecurity dataset: CVE data")
+    else:
+        print(f"✗ Missing cybersecurity dataset: {cyber_path}")
 
     return configs
 
@@ -118,6 +131,11 @@ def main():
 
     logger.info(f"Found {len(dataset_configs)} valid datasets")
 
+    # Get project root for output directory
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(current_dir))
+    output_dir = os.path.join(project_root, args.output_dir.lstrip('./'))
+
     # Detailed logging configuration
     config = TrainingConfig(
         model_name=args.model,
@@ -129,7 +147,7 @@ def main():
         save_steps=250,   # Frequent saves for long training
         eval_steps=125,   # Regular evaluation
         logging_steps=args.logging_steps,  # Configurable logging frequency
-        output_dir=args.output_dir,
+        output_dir=output_dir,
         gradient_accumulation_steps=args.gradient_accumulation,
         fp16=False,
         dataloader_num_workers=2,  # Some parallel loading for efficiency
